@@ -1,0 +1,331 @@
+/* style.css */
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+
+ul { 
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+}
+
+#main_header {
+  position: fixed;
+  width: 100%;
+  height: 125px;
+  z-index: 999;
+  background: white;
+}
+
+#main_header .container {
+  position: relative;
+}
+
+#main_header h1 {
+  position: absolute;
+  left: 289px; top: 42px;
+}
+
+/*menu*/
+
+#gnb {
+  position: absolute;
+  right: 0; top: 25px;
+  background: white;
+}
+
+#gnb a { 
+  color: #707070; 
+}
+
+#gnb > ul > li {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 42px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#gnb > ul > li > a {
+  display: block;
+}
+
+#gnb > ul > li:last-child {
+  padding-right: 289px;
+}
+
+#gnb > ul > li > a:hover {
+  color: black;
+  font-weight: bold;
+  border-bottom: 4px solid #F3E9A2; 
+}
+
+/*about*/
+
+.yellow {
+  border: 5px solid #F3E9A2;
+  width: 618px;
+  height: 618px;
+  position: fixed;
+  top: 238px;
+  left: 632px;
+}
+
+.yellow > h2 {
+  font-size: 50px;
+  position:absolute;
+  top: 14px;
+  left: 32px;
+}
+
+.yellow > h3 {
+  font-size: 50px;
+  position:absolute;
+  top: 14px;
+  left: 557px;
+  text-align: center;
+}
+
+#visual > h3 {
+  font-size: 50px;
+  position:absolute;
+  top: 256px;
+  left: 1274px;
+  text-align: center;
+}
+
+#visual > img {
+  position: absolute;
+  left: 553px;
+  top: 421px;
+  height: 435px;
+  width: 374px;
+}
+
+#about, #works, #contact {
+  /*border: 2px solid red;*/
+  background: #F3E9A2;
+  padding-top: 200px;
+  width: 1920px;
+  height: 1000px;
+}
+
+#about > #hello {
+  /*border: 2px solid red;*/
+  text-align: center;
+  font-size: 50px;
+  position: fixed;
+  left: 300px;
+}
+
+.white {
+  border: 3px solid white;
+  width: 296px;
+  height: 285px;
+  position: fixed;
+  left: 427px;
+  top: 182px;
+}
+
+#about > .profile {
+  position: relative;
+  left: 459px;
+  top: 50px;
+}
+
+.name {
+  /*border: 5px solid red;*/
+  position: fixed;
+  top: 568px;
+  left: 459px;
+}
+
+.name > p >#small {
+  /*border: 2px solid red;*/
+  font-size: 15px;
+  color: #707070;
+  font-weight: bold;
+}
+
+.applicant > p {
+  font-size: 30px;
+  position: fixed;
+  left: 950px;
+  top: 225px;
+}
+
+.applicant > p > #bold {
+  /*border: 2px solid red;*/
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.explanation {
+  font-size: 20px;
+  position: fixed;
+  left: 950px;
+  top: 324px;
+}
+
+.explanation > p > #web {
+  /*border: 2px solid red;*/
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.skill {
+  /*border: 2px solid red;*/
+  font-size: 30px;
+  text-align: center;
+  position: fixed;
+  left: 1005px;
+  top: 560px;
+}
+
+.skill > #bar {
+  margin-left: 40px;
+  margin-bottom: 50px;
+  height: 9px;
+  width: 112px;
+  background: white;
+}
+
+.license {
+  font-size: 30px;
+  text-align: center;
+  position: fixed;
+  left: 1441px;
+  top: 560px;
+}
+
+.license > #bar {
+  margin-left: 60px;
+  margin-bottom: 50px;
+  height: 9px;
+  width: 148px;
+  background: white;
+}
+
+/*works*/
+
+#works {
+  /*border: 2px solid red;*/
+  background: #F3E9A2;
+  padding-top: 200px;
+  width: 1920px;
+  height: 2000px;
+}
+
+#works > #passion {
+  /*border: 2px solid red;*/
+  text-align: center;
+  font-size: 50px;
+  position: fixed;
+  left: 1575px;
+}
+
+#works > nav > button {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 178px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+#Wgnb {
+  /*border: 2px solid red;*/
+  padding-left: 50px;
+  position: absolute;
+  left: 600px;
+  top: 150px;
+}
+
+
+#works > nav > button{
+  /*border: 2px solid red;*/
+  font-size: 20px;
+}
+
+#works > nav > button:hover {
+  color: black;
+  font-weight: bold;
+  border-bottom: 4px solid white; 
+}
+
+.list {
+  /*border: 2px solid black;*/
+  position: absolute;
+  top: 300px;
+  left: 330px;
+  right: 316px;
+}
+
+.col_4  {
+  /*border: 2px solid white;*/
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: block;
+}
+
+
+.col_4 > a > #picture {
+  width: 264px;
+}
+
+.col_4 > a > #computer {
+  /*border: 2px solid red;*/
+  margin-top: 50px;
+}
+
+
+/*contact*/
+
+#contact > #contactme {
+  /*border: 2px solid red;*/
+  text-align: center;
+  font-size: 50px;
+  position: fixed;
+  left: 300px;
+  top: 200px;
+}
+
+.passion {
+  /*border: 2px solid red;*/
+  font-size: 50px;
+  position: fixed;
+  top: 360px;
+  left: 564px;
+}
+
+.passion > p > #bold {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.address {
+  /*border: 2px solid red;*/
+  font-size: 30px;
+  position: fixed;
+  right: 246px;
+  top: 750px;
+  color: #000;
+}
+
+.address > p > small > a {
+  /*border: 2px solid green;*/
+  color: #000;
+}
