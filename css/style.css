@@ -123,6 +123,7 @@ body {
   padding-top: 200px;
   width: 1920px;
   height: 1000px;
+  overflow: hidden;
 }
 
 #about > #hello {
