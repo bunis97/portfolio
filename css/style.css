@@ -69,6 +69,12 @@ body {
   border-bottom: 4px solid #F3E9A2; 
 }
 
+#gnb > ul > li.active a {
+  color: black;
+  font-weight: bold;
+  border-bottom: 4px solid #F3E9A2; 
+}
+
 /*about*/
 
 .yellow {
