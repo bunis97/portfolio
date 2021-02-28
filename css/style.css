@@ -1,6 +1,6 @@
 /* style.css */
 * {
-  margin: 0; padding: 0;
+  margin: 0 auto; padding: 0;
   box-sizing: border-box;
 }
 
@@ -19,6 +19,7 @@ body {
 
 #main_header {
   position: fixed;
+  top: 0;
   width: 100%;
   height: 125px;
   z-index: 999;
@@ -51,7 +52,6 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 42px;
-  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -75,7 +75,7 @@ body {
   border-bottom: 4px solid #F3E9A2; 
 }
 
-/*main*/
+/*index*/
 #visual {
   float: left;
   overflow: hidden;
