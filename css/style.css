@@ -1,0 +1,331 @@
+/* style.css */
+* {
+  margin: 0 auto; padding: 0;
+  box-sizing: border-box;
+}
+
+ul { 
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+}
+
+#main_header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 125px;
+  z-index: 999;
+  background: white;
+}
+
+#main_header .container {
+  position: relative;
+}
+
+#main_header h1 {
+  position: absolute;
+  left: 289px; top: 42px;
+}
+
+/*menu*/
+
+#gnb {
+  position: absolute;
+  right: 0; top: 25px;
+  background: white;
+}
+
+#gnb a { 
+  color: #707070; 
+}
+
+#gnb > ul > li {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 42px;
+  text-transform: uppercase;
+}
+
+#gnb > ul > li > a {
+  display: block;
+}
+
+#gnb > ul > li:last-child {
+  padding-right: 289px;
+}
+
+#gnb > ul > li > a:hover {
+  color: black;
+  font-weight: bold;
+  border-bottom: 4px solid #F3E9A2; 
+}
+
+#gnb > ul > li.active a {
+  color: black;
+  font-weight: bold;
+  border-bottom: 4px solid #F3E9A2; 
+}
+
+/*index*/
+
+#visual {
+  float: left;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#visual > .yellow {
+  border: 5px solid #F3E9A2;
+  height: 618px;
+  width: 618px;
+  margin-top: 180px;
+  margin-left: 550px;
+
+}
+
+.yellow > h2 {
+  margin-left: 540px;
+  text-align: center;
+  font-size: 50px;
+  margin-top: -96px;
+}
+
+.text > h2 {
+  width: 400px;
+  height: 400px;
+  font-size: 50px;
+  text-align: center;
+  margin-top: -217px;
+  margin-left: 445px;
+}
+
+.publisher > .miji {
+  /* border: 2px solid red; */
+  width: 400px;
+  margin-top: -256px;
+  margin-left: -130px;
+}
+
+/*about*/
+
+#about, #contact {
+  /*border: 2px solid red;*/
+  background: #F3E9A2;
+  padding-top: 200px;
+  width: 1920px;
+  height: 968px;
+  padding-top: 255px;
+  padding-left: 100px;
+}
+
+#about > h2 {
+  /* border: 2px solid red; */
+  font-size: 50px;
+  text-align: center;
+  margin-left: -1300px;
+  margin-top: -40px;
+}
+
+.white {
+  border: 3px solid white;
+  width: 296px;
+  height: 285px;
+  margin-top: -410px;
+  margin-left: 410px;
+}
+
+.profile {
+  margin-top: -230px;
+  margin-left: 450px;
+}
+
+.name {
+  margin-left: 430px;
+  margin-top: 15px;
+}
+
+.name > p > #small {
+  font-size: 15px;
+  color: #707070;
+  font-weight: bold;
+}
+
+.applicant {
+  margin-top: -550px;
+  margin-left: 850px;
+  font-size: 30px;
+}
+
+.applicant > p > #bold {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.explanation {
+  font-size: 20px;
+  margin-left: 850px;
+  margin-top: 20px;
+}
+
+.explanation > p > #web {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.skill {
+  /* border: 2px solid red; */
+  width: 200px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.skill > #bar {
+  background: white;
+  height: 9px;
+  width: 112px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.license {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 800px;
+  margin-top: -280px;
+}
+
+.license > #bar {
+  background: white;
+  height: 9px;
+  width: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*works*/
+
+#works {
+  /*border: 2px solid red;*/
+  background: #F3E9A2;
+  padding-top: 200px;
+  width: 1920px;
+  height: 2000px;
+}
+
+#works {
+  /*border: 2px solid red;*/
+  background: #F3E9A2;
+  padding-top: 200px;
+  width: 1920px;
+  height: 2000px;
+}
+
+#works > #passion {
+  /*border: 2px solid red;*/
+  text-align: center;
+  font-size: 50px;
+  position: fixed;
+  left: 1500px;
+  top: 230px;
+}
+
+#works > nav > button {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 30px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 178px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+#Wgnb {
+  /*border: 2px solid red;*/
+  padding-left: 50px;
+  margin-left: 600px;
+}
+
+
+#works > nav > button{
+  /*border: 2px solid red;*/
+  font-size: 20px;
+}
+
+#works > nav > button:hover {
+  color: black;
+  font-weight: bold;
+  border-bottom: 4px solid white; 
+}
+
+.list {
+  /*border: 2px solid black;*/
+  margin-top: -1700px;
+  float: left;
+  width: 1000px;
+  margin-left: 530px;
+}
+
+.col_4  {
+  /*border: 2px solid white;*/
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: block;
+}
+
+
+.col_4 > a > #picture {
+  width: 264px;
+}
+
+.col_4 > a > #computer {
+  /*border: 2px solid red;*/
+  margin-top: 50px;
+}
+
+/*contact*/
+
+#contact > #contactme {
+  /* border: 2px solid red; */
+  text-align: center;
+  font-size: 50px;
+  margin-left: -1300px;
+  margin-top: -50px;
+}
+
+.passion {
+  /* border: 2px solid red; */
+  font-size: 45px;
+  margin-top: -600px;
+  padding-left: 550px;
+}
+
+.passion > p > #bold {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.address {
+  /* border: 2px solid red; */
+  font-size: 25px;
+  color: #000;
+  margin-left: 1100px;
+  margin-top: 150px;
+}
+
+.address > p > small > a {
+  /*border: 2px solid green;*/
+  color: #000;
+}
