@@ -76,30 +76,25 @@ body {
 }
 
 /*index*/
+
 #visual {
   float: left;
-  overflow: hidden;
 }
 
 #visual > .yellow {
   border: 5px solid #F3E9A2;
   height: 618px;
   width: 618px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -250px;
-  margin-left: -309px;
+  margin-top: 180px;
+  margin-left: 550px;
+
 }
 
 .yellow > h2 {
-  margin-left: 550px;
+  margin-left: 540px;
   text-align: center;
   font-size: 50px;
-  margin-top: -98px;
-  position: absolute;
-  top: 17.5%;
-  left: -3%;
+  margin-top: -96px;
 }
 
 .text > h2 {
@@ -107,126 +102,121 @@ body {
   height: 400px;
   font-size: 50px;
   text-align: center;
-  position: absolute;
-  top: 1.3%;
-  left: 74%;
+  margin-top: -217px;
+  margin-left: 445px;
 }
 
 .publisher > .miji {
   /* border: 2px solid red; */
   width: 400px;
-  position: absolute;
-  left: -30%;
-  top: 24.5%;
+  margin-top: -256px;
+  margin-left: -130px;
 }
 
 /*about*/
-#about, #works, #contact {
+
+#about, #contact {
   /*border: 2px solid red;*/
   background: #F3E9A2;
   padding-top: 200px;
   width: 1920px;
-  height: 1000px;
-  overflow: hidden;
+  height: 800px;
 }
 
-#about > #hello {
-  /*border: 2px solid red;*/
-  text-align: center;
+#about > h2 {
+  /* border: 2px solid red; */
   font-size: 50px;
-  position: fixed;
-  left: 300px;
+  text-align: center;
+  margin-left: -1300px;
+  margin-top: -40px;
 }
 
 .white {
   border: 3px solid white;
   width: 296px;
   height: 285px;
-  position: fixed;
-  left: 427px;
-  top: 182px;
+  margin-top: -410px;
+  margin-left: 410px;
 }
 
-#about > .profile {
-  position: relative;
-  left: 459px;
-  top: 50px;
+.profile {
+  margin-top: -230px;
+  margin-left: 450px;
 }
 
 .name {
-  /*border: 5px solid red;*/
-  position: fixed;
-  top: 568px;
-  left: 459px;
+  margin-left: 430px;
+  margin-top: 15px;
 }
 
-.name > p >#small {
-  /*border: 2px solid red;*/
+.name > p > #small {
   font-size: 15px;
   color: #707070;
   font-weight: bold;
 }
 
-.applicant > p {
+.applicant {
+  margin-top: -550px;
+  margin-left: 850px;
   font-size: 30px;
-  position: fixed;
-  left: 950px;
-  top: 225px;
 }
 
 .applicant > p > #bold {
-  /*border: 2px solid red;*/
   font-size: 40px;
   font-weight: bold;
 }
 
 .explanation {
   font-size: 20px;
-  position: fixed;
-  left: 950px;
-  top: 324px;
+  margin-left: 850px;
+  margin-top: 20px;
 }
 
 .explanation > p > #web {
-  /*border: 2px solid red;*/
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
 }
 
 .skill {
-  /*border: 2px solid red;*/
+  /* border: 2px solid red; */
+  width: 200px;
   font-size: 30px;
   text-align: center;
-  position: fixed;
-  left: 1005px;
-  top: 560px;
+  margin-top: 90px;
 }
 
 .skill > #bar {
-  margin-left: 40px;
-  margin-bottom: 50px;
+  background: white;
   height: 9px;
   width: 112px;
-  background: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .license {
   font-size: 30px;
   text-align: center;
-  position: fixed;
-  left: 1441px;
-  top: 560px;
+  margin-left: 800px;
+  margin-top: -280px;
 }
 
 .license > #bar {
-  margin-left: 60px;
-  margin-bottom: 50px;
-  height: 9px;
-  width: 148px;
   background: white;
+  height: 9px;
+  width: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /*works*/
+
+#works {
+  /*border: 2px solid red;*/
+  background: #F3E9A2;
+  padding-top: 200px;
+  width: 1920px;
+  height: 2000px;
+}
 
 #works {
   /*border: 2px solid red;*/
@@ -241,7 +231,7 @@ body {
   text-align: center;
   font-size: 50px;
   position: fixed;
-  left: 1575px;
+  left: 1330px;
 }
 
 #works > nav > button {
@@ -259,9 +249,7 @@ body {
 #Wgnb {
   /*border: 2px solid red;*/
   padding-left: 50px;
-  position: absolute;
-  left: 600px;
-  top: 150px;
+  margin-left: 430px;
 }
 
 
@@ -302,38 +290,34 @@ body {
   margin-top: 50px;
 }
 
-
 /*contact*/
 
 #contact > #contactme {
-  /*border: 2px solid red;*/
+  /* border: 2px solid red; */
   text-align: center;
-  font-size: 50px;
-  position: fixed;
-  left: 300px;
-  top: 200px;
+  font-size: 40px;
+  margin-left: -1300px;
+  margin-top: -40px;
 }
 
 .passion {
-  /*border: 2px solid red;*/
-  font-size: 50px;
-  position: fixed;
-  top: 360px;
-  left: 564px;
+  /* border: 2px solid red; */
+  font-size: 45px;
+  margin-top: -450px;
+  padding-left: 550px;
 }
 
 .passion > p > #bold {
-  font-size: 55px;
+  font-size: 50px;
   font-weight: bold;
 }
 
 .address {
   /*border: 2px solid red;*/
-  font-size: 30px;
-  position: fixed;
-  right: 246px;
-  top: 750px;
+  font-size: 25px;
   color: #000;
+  margin-left: 950px;
+  margin-top: 35px;
 }
 
 .address > p > small > a {
